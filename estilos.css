@@ -1,0 +1,49 @@
+/*Variables / custom properties
+se crean en el punto mas alto del documento root (raiz)
+  
+*/
+:root{ /*Declaro las variables, nombres y contenido*/
+    --azul:#72c0c0;
+    --naranja: #F90;
+    --negro: #000;
+    --blanco: #FFF;
+
+}
+*{ /*setear: prpiedades no heredables, uso seleccion universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*evita q los elementos crezcan*/
+}
+
+body{
+    
+    /*Utilizamos la variable con var()*/
+    background-color: var(--azul);
+    background-image: url(images/pattern.jpg); /*imagen de fondo*/
+    /*background-repeat: repeat; esta siempre es por defecto
+    puede ser tambien no-repeat / repeat-x/ -webkit-mask-repeat-y
+    background-size: cover; cubre el 100% del fondo */
+    font-family: Arial, Helvetica, sans-serif; /*defino la fuente de la letra*/
+}
+
+/*h1{
+    background-color: var(--blanco);
+    color: var(--azul);
+}*/
+.cabecera, .contenedor{
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.cabecera{
+    display: flex;
+    color: var(--naranja);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.contenedor{
+    background-color: var(--blanco);
+}

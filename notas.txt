@@ -1,2 +1,17 @@
 Repasar absoluto y relativo, posision
 Armamos el sitio de la imagen
+repasar pasos congretos para crear un repositorio
+Repasar el juego de la rana, por q no supe hacer la tarea de la cabecera!!!!
+Abrir github con nuestro usuario, apretar boton verde de nuevo, o crear proyecto, 
+poner un nombre, publico o privado y apretar crear repositorio.
+1.en power shell ir a la carpeta del proyecto con CD
+2. poner code . para abrir visual estudio en la carpeta correspondiiente
+3. hacer un git init para crear el repositorio
+4. en VSC crear un archivo html llamado index dentro de carpeta
+5.se veran el boton de git(que tiene 3 ramitas el numero de archivos correspondientes)
+6.hacer un add, en el signo +
+8. hacer commit, escribiendo en el mensaje
+9.cambiar el branch, master a mail (copiar codigo de github en power shell)
+10.se enlaza el repositorio copiando git remote... de github
+11. hacer git ´push, coopiando codigo en power shell de git
+

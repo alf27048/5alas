@@ -13,5 +13,7 @@ poner un nombre, publico o privado y apretar crear repositorio.
 8. hacer commit, escribiendo en el mensaje
 9.cambiar el branch, master a mail (copiar codigo de github en power shell)
 10.se enlaza el repositorio copiando git remote... de github
-11. hacer git ´push, coopiando codigo en power shell de git
+11. hacer git ´push, coopiando codigo en power shell de git y la segunda vez, o sea cuando
+cambiamos, hacer clit en git, hacer +,  completar mensaje y despues hacer push (flechita 1 
+al lado de main)
 

@@ -7,6 +7,7 @@ se crean en el punto mas alto del documento root (raiz)
     --naranja: #F90;
     --negro: #000;
     --blanco: #FFF;
+    --amarillo:#f8c009;
 
 }
 *{ /*setear: prpiedades no heredables, uso seleccion universal*/
@@ -46,4 +47,47 @@ body{
 
 .contenedor{
     background-color: var(--blanco);
+    border-radius: 10px 10px 0 0;
+}
+/*----------------Navegacion ----------------------*/
+.nav{
+    background-color: var(--naranja);
+    display: flex;
+    padding: 10px;
+    padding-left: 45px;
+    flex-wrap: wrap;
+    /*margin: auto;*/
+    border-radius: 10px 10px 0 0;
+
+}
+.nav-lista{
+    /*background-color: var(--naranja);*/
+    list-style: none;
+    display: flex;
+    
+    /*font-size: 20px;*/
+    padding: 10px 0;
+    
+
+}
+.nav-lista_item-link{
+    /*background-color: darkkhaki;*/
+    display: block; /*para tener mas zona clicleable*/
+    text-decoration: none;
+    color: var(--blanco);
+    font-weight: bolder;
+    padding: 4px 8px;
+    border-right: 1px solid var(--amarillo);
+}
+.nav-lista_item-link:hover{
+    text-decoration: underline;
+}
+.nav-form{
+    /*background-color:  var(--naranja);*/
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    /*padding-top: 10px;
+    padding-right: 15px;*/
+
 }

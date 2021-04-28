@@ -17,3 +17,6 @@ poner un nombre, publico o privado y apretar crear repositorio.
 cambiamos, hacer clit en git, hacer +,  completar mensaje y despues hacer push (flechita 1 
 al lado de main)
 
+24/04
+revisar que es nav
+

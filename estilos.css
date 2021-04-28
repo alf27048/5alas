@@ -8,7 +8,7 @@ se crean en el punto mas alto del documento root (raiz)
     --negro: #000;
     --blanco: #FFF;
     --amarillo:#f8c009;
-    --espacio: 20px;
+    --espacio: 30px;
 
 }
 *{ /*setear: prpiedades no heredables, uso seleccion universal*/
@@ -100,16 +100,50 @@ body{
 }
 /*----------------principal-----------------*/
 .principal{
-    background-color: mediumorchid;
+    /*background-color: mediumorchid;*/
     display: grid;
     grid-template-columns: 250px 1fr;
     padding: 0 var(--espacio);
     /*padding-top: 0;*/
-    margin-bottom: 100px; /*es temporal para scrolear*/
+
+    margin-bottom: 40px;
+   
+}
+.principal-categorias_titulo{
+    /*background-color: orangered;*/
+    margin: 20px;
+    margin-top: 0;
+    margin-left: 5px;
 }
 .principal-categorias{
-    background-color: salmon;
+    /*background-color: salmon;*/
+    
 }
+.categorias-lista{
+    list-style: none;
+    /*padding: 0;*/
+    
+
+}
+.categorias-lista_item{
+    /*background-color: orangered;*/
+    padding-bottom: 15px;
+    margin-left: 5px;
+    border-bottom: 1px dashed var(--negro);
+    padding: 10px;
+    margin-right: 50px;
+
+}
+.categorias-lista_item-link{
+    text-decoration: none;
+   
+    /*padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;*/
+   
+    color: var(--negro);
+}
+
 .principal-productos{
     background-color: skyblue;
     display: grid;
@@ -118,4 +152,99 @@ body{
 }
 .producto{
     background-color: steelblue;
+}
+.producto-lampara{
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+.producto-descripcion{
+    text-align: justify;    
+    font-size: 13px;
+    margin: auto;
+    margin-left: 15px;
+}
+opcion1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.opcion1-titulo{
+    grid-column: 1 / -1;
+    margin-bottom: 10px;
+
+}
+.opcion2-titulo{
+    margin-bottom: 10px;
+}
+.opcion2-contenedor{
+    display: flex;
+
+}
+.news{
+    margin: auto;
+    margin-bottom: 30px; /*es temporal para scrolear*/
+    max-width: 940px;
+    display: flex;
+    align-items: center;
+
+    background-color: pink;
+    border-radius: 6px;
+    border: 1px solid var(--negro);
+    padding: 10px 40px;
+  /*los colores se separan por coma 
+  puedo modifica la camtidad de cada color*/
+    background-image: linear-gradient(var(--blanco) 70%, grey)
+    /*radial-gradient(orange, skyblue) ;/*para degradado*/
+    
+    
+
+}
+.news-img{
+    /*background-color: pink;*/
+}
+.news-texto{
+    /*background-color: purple;*/
+    flex-grow: 1;
+    padding-left: 40px;
+}
+.noticias{
+    padding-left: 40px;
+
+}
+.news-form_boton{
+    background: none;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;/*manito para hacer click*/
+
+}
+.news-form_boton:hover{
+    text-decoration: underline;
+    color: var(--naranja);
+}
+.news-form{
+    /*background-color: salmon;*/
+}
+/*------------------------------ PIE de pagina--------------*/
+.pie{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    background-color: gainsboro;
+    padding-top: 5px;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    border-top: 1px solid var(--negro);
+
+}
+.footer-hong{
+    border-right: 1px solid var(--negro);
+    padding-right: 30px;
+}
+
+.footer-creditos{
+    grid-column: 1 / -1;
+    text-align: right;
+
 }
